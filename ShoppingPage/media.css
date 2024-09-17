@@ -1,0 +1,235 @@
+ 
+ @media only screen and (min-width: 1100px) and (max-width: 1199px) {
+  .intro-content {
+    gap: 200px;
+  }
+  .intro-text h2 {
+    font-size: 3.5rem;
+  }
+  .intro-text p {
+    font-size: 24px;
+    line-height: 22px;
+  }
+ }
+ @media only screen and (min-width: 1000px) and (max-width: 1099px) {
+  .intro-content {
+    gap: 150px;
+  }
+  .intro-text h2 {
+    font-size: 3.3rem;
+    line-height: 46px;
+  }
+  .intro-text p {
+    font-size: 24px;
+    line-height: 22px;
+  }
+ }
+ @media only screen and (min-width: 904px) and (max-width: 999px) {
+  .intro-content {
+    gap: 120px;
+  }
+  .intro-text h2 {
+    font-size: 3rem;
+    line-height: 46px;
+    padding-bottom: 30px;
+  }
+  .intro-text p {
+    font-size: 22px;
+    line-height: 23px;
+  }
+  .result-filter {
+    width: 65%;
+  }
+  .item-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 65%;
+  }
+  .pagination {
+    width: 65%;
+  }
+ }
+ @media only screen and (min-width: 750px) and (max-width: 903px) {
+  .intro-content {
+    gap: 70px;
+  }
+  .intro-text h2 {
+    font-size: 2.9rem;
+    line-height: 46px;
+    padding-bottom: 30px;
+  }
+  .intro-text p {
+    font-size: 22px;
+    line-height: 23px;
+    padding-bottom: 30px;
+  }
+  .result-filter {
+    width: 65%;
+  }
+  .result-filter p {
+    font-size: 16px;
+  }
+  .result-filter .filter .price-set {
+    font-size: 16px;
+  }
+  .result-filter .filter span {
+    font-size: 18px;
+  }
+  .item-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 65%;
+  }
+  .pagination {
+    width: 65%;
+  }
+ }
+ @media only screen and (min-width: 300px) and (max-width: 749px) {
+  .intro-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+   .intro-content {
+    width: 100%;
+    gap: 20px;
+    padding: 10px 30px;
+    display: flex;
+  }
+   .intro-text h2 {
+    font-size: 3.5rem;
+    line-height: 50px;
+    padding-bottom: 25px;
+  }
+  .intro-text p {
+    font-size: 26px;
+  }
+  .intro-text .btn-shopnow{
+    display: flex;
+    justify-content: center;
+  }
+   .image-carousel {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    align-self: center;
+   } 
+   .item-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+  .result-filter {
+    width: 100%;
+  }
+  .result-filter p {
+    font-size: 14px;
+  }
+  .result-filter .filter .price-set {
+    font-size: 14px;
+    gap: 12px;
+  }
+  .result-filter .filter span {
+    font-size: 14px;
+  }
+  .shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .shop-bar {
+    width: 100%;
+  }
+  .pagination {
+    width: 100%;
+  }
+ }
+ @media only screen and (min-width: 100px) and (max-width: 430px) {
+  .header nav button {
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+  }
+  .header nav h1 {
+    font-size: 36px;
+  }
+  .intro-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+   .intro-content {
+    width: 100%;
+    gap: 15px;
+    padding: 10px 10px;
+    display: flex;
+  }
+   .intro-text h2 {
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+  .intro-text p {
+    font-size: 18px;
+  }
+  .intro-text .btn-shopnow{
+    display: flex;
+    justify-content: center;
+  }
+   .image-carousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px;
+   } 
+   .shop {
+    display: flex;
+    flex-direction: column;
+  }
+   .item-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .result-filter p {
+    font-size: 11px;
+  }
+  .result-filter .filter .price-set {
+    font-size: 11px;
+  }
+  .result-filter .filter{
+    gap: 4px;
+    padding: 4px 10px;
+  }
+  .shop-container {
+    width: 100%;
+  }
+  .shop {
+    width: 100%;
+  }
+  .item-list {
+    width: 100%;
+    gap: 20px;
+  }
+  .item-list .item {
+    width: 100%;
+  }
+  .item-list .item .item-info {
+    padding: 25px 20px;
+  }
+  .item-list .item .item-info h2 {
+    font-size: 22px;
+  }
+  .item-list .item .item-price {
+    font-size: 20px;
+  }
+  .item-list .item .item-info .btn {
+    font-size: 18px;
+  }
+  .pagination {
+    width: 100%;
+  }
+ }
+
